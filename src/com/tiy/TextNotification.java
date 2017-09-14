@@ -13,6 +13,6 @@ public class TextNotification extends Notification {
 
     @Override
     public void transport() {
-        super.transport();
+        System.out.println("This is the text notification");
     }
 }

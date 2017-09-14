@@ -19,7 +19,7 @@ public class EmailNotification extends Notification {
 
     @Override
     public void transport() {
-        super.transport();
+        System.out.println("This is the email notification");
     }
 
     @Override
