@@ -6,8 +6,8 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        EmailNotification emailNotification = new EmailNotification("test","what is the capital of Texas?", "john jones", "smtp.gmail.com.","");
-        TextNotification textNotification = new TextNotification("Meeting","what time can you meet?","jenny jones", "number@messaging.sprintpcs.com","");
+        EmailNotification emailNotification = new EmailNotification("test","what is the name of your city?", "Howard Hughes", "smtp.gmail.com.","");
+        TextNotification textNotification = new TextNotification("Meeting","what time can you meet?","Johnny B. Goode", "number@messaging.sprintpcs.com","");
         emailNotification.transport();
         textNotification.transport();
         Object emailNotificationClone = emailNotification.clone();

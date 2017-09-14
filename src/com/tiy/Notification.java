@@ -26,6 +26,6 @@ public class Notification {
         System.out.println("status: "+ status);
     }
     protected void printInfo2(){
-        System.out.println("something something something");
+        System.out.println("bravo bravo bravo bravo");
     }
 }

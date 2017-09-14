@@ -25,7 +25,7 @@ public class EmailNotification extends Notification {
     @Override
     public void printInfo2() {
         super.printInfo2();
-        System.out.println("else else else else");
+        System.out.println("echo echo echo echo");
     }
 
     @Override
